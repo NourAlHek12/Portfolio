@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-section {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, black 70%, #683aa4 30%);
+}
+
+#navbar {
+    background: linear-gradient(90deg, black 70%, #683aa4 30%);
+}
+
+#logo {
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #683aa4;
+    letter-spacing: 2px;
+
+}
+
+.navbar-nav {
+    margin-left: 50px;
+    margin-top: 6px;
+}
+
+.nav-item .nav-link {
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #683aa4;
+}
+
+#btncv {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width:987px) {
+    #home p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    #btncv {
+        border: 2px solid #683aa4;
+        color: #683aa4;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .home img {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .home img {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .home img {
+        width: 380px;
+        height: 280px;
+    }
+}
+
+.home .container h3 {
+    color: #683aa4;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home .container h1 {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.home .container p {
+    color: white;
+    letter-spacing: 2px;
+}
+
+#btn1 {
+    letter-spacing: 3px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid #683aa4;
+}
+
+#btn1:hover {
+    background-color: #683aa4;
+}
+
+@media screen and (max-width:844px) {
+    .home-section {
+        height: 146vh;
+        background: black;
+    }
+
+    .home .container {
+        margin-top: 50px;
+    }
+
+    #navbar {
+        background: black;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .home-section {
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .home-section {
+        height: 110vh;
+    }
+}
+
+#about {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#about .card img {
+    background-color: #683aa4;
+    border: 2px black;
+}
+
+#about h3 {
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid #683aa4;
+    width: 150px;
+}
+
+#about h5 {
+    color: white;
+    font-weight: bold;
+}
+
+#about p {
+    color: white;
+    font-size: 15px;
+}
+
+#about h2 {
+    color: white;
+    font-size: 15px;
+}
+
+#about h2 span {
+    font-size: 15px;
+    color: #683aa4;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#btn2 {
+    letter-spacing: 3px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid #683aa4;
+    margin-top: 5px;
+}
+
+#btn2:hover {
+    background-color: #683aa4;
+
+}
+
+@media screen and (max-width:987px) {
+    #about p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #about {
+        height: 150vh;
+    }
+
+    #about p {
+        font-size: 17px;
+    }
+}
+
+#services {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#services h2 {
+    width: 130px;
+    color: white;
+    border-bottom: 2px solid #683aa4;
+}
+
+#services h3 {
+    color: white;
+}
+
+#services #card {
+    /* border: 2px solid #683aa4; */
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#services #card:hover {
+    background-color: #683aa4;
+}
+
+#services #card p {
+    color: white;
+}
+
+#services #card i {
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+#resume {
+    width: 100%;
+    height: 140vh;
+    background-color: black;
+}
+
+#resume h5 {
+    color: #683aa4;
+    padding-top: 50px;
+}
+
+#resume h1 {
+    color: white;
+}
+
+#resume h3 i {
+    color: #683aa4;
+}
+
+#resume h3 {
+    width: 140px;
+    color: white;
+    border-bottom: 2px solid #683aa4;
+    margin-top: 30px;
+}
+
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: #683aa4;
+}
+
+#resume h2 {
+    color: white;
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+#resume p {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#resume i {
+    color: #683aa4;
+}
+
+@media screen and (max-width:767px) {
+    #resume {
+        height: 250vh;
+    }
+}
+
+#portfolio {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#portfolio h1 {
+    width: 220px;
+    color: white;
+    border-bottom: 2px solid #683aa4;
+}
+
+#portfolio p {
+    color: white;
+}
+
+#portfolio #card {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#portfolio #card:hover {
+    transform: translateY(-10px);
+}
+
+#btn3 {
+    /* letter-spacing: 3px; */
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+    border: 2px solid #683aa4;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#btn3:hover {
+    background-color: #683aa4;
+
+}
+
+@media screen and (max-width:770px) {
+    #portfolio {
+        height: 330vh;
+    }
+}
+
+@media screen and (max-width:460px) {
+    #portfolio {
+        height: 270vh;
+    }
+}
+
+@media screen and (max-width:380px) {
+    #portfolio {
+        height: 235vh;
+    }
+}
+
+@media screen and (max-width:312px) {
+    #portfolio {
+        height: 200vh;
+    }
+}
+
+@media screen and (max-width:300px) {
+    #portfolio {
+        height: 190vh;
+    }
+}
+
+@media screen and (max-width:200px) {
+    #portfolio h1 {
+        padding-top: 100px;
+    }
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#contact h3 {
+    width: 150px;
+    color: white;
+    border-bottom: 2px solid #683aa4;
+}
+
+#contact p {
+    color: white;
+}
+
+#contact input {
+    width: 388px;
+    margin-top: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #683aa4;
+}
+
+#contact ::placeholder {
+    color: white;
+}
+
+#contact textarea {
+    background: transparent;
+    border: #683aa4 2px solid;
+    margin-top: 20px;
+    color: white;
+}
+
+#btncontact {
+    width: 388px;
+    height: 38px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: transparent;
+    color: white;
+    border: #683aa4 2px solid;
+    margin-top: 30px;
+}
+
+#btncontact:hover {
+    background-color: #683aa4;
+}
+
+#contact i {
+    color: #683aa4;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#contact h5,
+span {
+    color: white;
+}
+
+@media screen and(max-width:995px) {
+
+    #contact input {
+        width: 350px;
+    }
+
+    #contact textarea {
+        width: 350px;
+    }
+
+    #contact #btncontact {
+        width: 350px;
+    }
+}
+
+@media screen and(max-width:476px) {
+
+    #contact input {
+        width: 250px;
+    }
+
+    #contact textarea {
+        width: 250px;
+    }
+
+    #contact #btncontact {
+        width: 250px;
+    }
+}
+
+@media screen and(max-width:320px) {
+
+    #contact input {
+        width: 180px;
+    }
+
+    #contact textarea {
+        width: 180px;
+    }
+
+    #contact #btncontact {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #contact {
+        height: 150vh;
+    }
+}
+@media screen and (max-width:870px) {
+    #contact {
+        height: 150vh;
+    }
+}
+#footer{
+    width: 100%;
+    background-color: #683aa4;
+}
+#footer h1{
+    color: white;
+    text-shadow: 0px 1px 1px black;
+    padding-top: 30px;
+}
+#footer p{
+    color: white;
+    text-shadow: 0px 0px 1px;
+}
+.icons i{
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+html{
+    scroll-behavior:smooth;
+}
+.arrow{
+    position: fixed;
+    border-radius: 50px;
+    color: white;
+    height: 50px;
+    bottom: 48px;
+    right: 50px;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+.arrow:hover{
+    color: white;
+}

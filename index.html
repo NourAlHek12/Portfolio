@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+<body>
+
+  <!-- Navbar -->
+  <div class="home-section">
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" id="logo">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button id="btncv">DOWNLOAD CV</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home-section -->
+    <section class="home">
+      <div class="container">
+        <div class="row">
+          <div class="col mx-5 my-5">
+            <h1>Hi,<br>I am Nour</h1>
+            <h3>Full Stack Developer</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet soluta veniam voluptate aliquam deleniti
+              labore quod quis illum, sapiente nam nesciunt.</p>
+            <button type="button" class="btn btn-lg" id="btn1">HIRE ME</button>
+          </div>
+          <div class="col my-5" id="img">
+            <img
+              src="https://cdni.iconscout.com/illustration/free/thumb/women-web-developer-with-laptop-2040890-1721886.png"
+              alt="img">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home-section-End -->
+  </div>
+  <!-- About-section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 py-md-0">
+          <div class="card">
+            <img
+              src="https://cdni.iconscout.com/illustration/free/thumb/women-web-developer-with-laptop-2040890-1721886.png"
+              alt="">
+          </div>
+        </div>
+        <div class="col-md-8 py-3 py-md-0">
+          <h3>About Me</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, reprehenderit labore assumenda quas
+            <br>similique officiis, aut amet cupiditate deserunt ad architecto et ullam nemo commodi! Aut laborum quos.
+          </p>
+          <h2>Name: <span>Nour</span></h2>
+          <h2>Age: <span>21</span></h2>
+          <h2>From: <span>Lebanon</span></h2>
+          <h2>Email:<span>nournourhek81652@gmail.com</span></h2>
+          <button class="btn btn-lg" id="btn2">DOWNLOAD CV</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About-section End-->
+
+  <!-- Services -->
+  <div id="services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col" id="card">
+          <i class="fa-regular fa-user" style="color: #683aa4;"></i>
+          <h3>Frontend</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+            probably just keep going until we run out of words.</p>
+        </div>
+        <div class="feature col" id="card">
+          <i class="fa-solid fa-server" style="color: #683aa4;"></i>
+          <h3>Backend</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+            probably just keep going until we run out of words.</p>
+        </div>
+        <div class="feature col" id="card">
+          <i class="fa-solid fa-mobile-screen-button" style="color: #683aa4;"></i>
+          <h3>Project</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+            probably just keep going until we run out of words.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services End -->
+  <!-- Resume -->
+  <div id="resume">
+    <div class="container">
+      <h5 class="text-center">Resume</h5>
+      <h1 class="text-center">Awesome Journey</h1>
+      <div class="container">
+        <div class="hr" style="margin-top: 30px;"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 py-3 py-md-0">
+          <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+          <p>Lebanese International University</p>
+          <i class="fa-regular fa-calendar"> 2020-2024</i>
+          <h5>Bachelor In Computer Engineering</h5>
+        </div>
+        <div class="col-md-6 py-3 py-md-0">
+          <h3><i class="fa-solid fa-briefcase"></i> Experience</h3>
+          <p>Online Courses</p>
+          <i class="fa-regular fa-calendar"> 2022-2023</i>
+          <h5>CS50x</h5>
+          <p>Introduction to Computer Science at harvard University <br>on Edx</p>
+          <i class="fa-regular fa-calendar"> 2023- present</i>
+          <h5>CS50w</h5>
+          <p>Web Application using Python and Javascript at harvard University <br>on Edx</p>
+          <i class="fa-regular fa-calendar"> 2024-present</i>
+          <h5>Full Stack</h5>
+          <p>Full Stack Developer at Apex Center</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Resume End -->
+  <!-- Portfolio -->
+
+  <div id="portfolio">
+    <section class="py-2 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="text-center container">My Work</h1>
+          <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the
+            creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album bg-body-tertiary">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm" id="card">
+              <img src="https://i.pinimg.com/originals/62/69/2c/62692cc108b31b81e89407dffde3e138.png" alt="">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" id="btn3">View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm" id="card">
+              <img
+                src="https://imgproxy.epicpxls.com/khu_BJigZHIwTvML1gVRgRd0Ryhgc_86dQl8hXGxMEg/rs:fill:800:600:0/g:no/aHR0cHM6Ly9pdGVt/cy5lcGljcHhscy5j/b20vdXBsb2Fkcy9w/aG90by9mODRlZDVh/N2FlOTJkOTUwODZh/NDE3NWI5YjQ3NGRm/NQ.jpg"
+                alt="">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" id="btn3">View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm" id="card">
+              <img src="https://th.bing.com/th/id/OIP.d1FqYpBzfAtqhxRCLDMmywAAAA?w=450&h=338&rs=1&pid=ImgDetMain"
+                alt="">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" id="btn3">View</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio End -->
+  <!-- Contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col mb-3 py-5">
+          <h3>Contact Me</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea illo delectus, dolorem sed magnam delenitl.
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea cols="50" rows="3" placeholder="Message"></textarea>
+            <button id="btncontact">Send</button>
+          </p>
+        </div>
+
+        <div class="col mb-3">
+
+        </div>
+
+        <div class="col mb-3 py-5">
+          <h5>Info</h5>
+          <ul class="nav flex-column">
+            <i class="fa-regular fa-envelope"></i><span>nournourhek81652@gmail.com</span>
+            <i class="fa-solid fa-phone"></i><span>+96181652874</span>
+            <i class="fa-solid fa-house"></i><span>Baalback</span>
+          </ul>
+        </div>
+
+        <div class="col mb-3 py-5">
+
+          <ul class="nav flex-column">
+            <i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i><span>LinkedIn</span>
+            <i class="fa-brands fa-instagram" style="color: rgb(230,41,104);"></i><span>Instagram</span>
+            <i class="fa-brands fa-facebook" style="color: rgb(52,85,148);"></i><span>Facebook</span>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact End -->
+
+  <!-- Footer -->
+  <div id="footer">
+    <h1 class="text-center">Portfolio</h1>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="icons text-center">
+      <i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i><span>LinkedIn</span>
+      <i class="fa-brands fa-instagram" style="color: rgb(230,41,104);"></i>Instagram<span></span>
+      <i class="fa-brands fa-facebook" style="color: rgb(52,85,148);"></i><span>Facebook</span>
+    </div>
+    <div class="copyright text-center">&copy; Copyright<strong> Portfolio</strong>. All Rights Reserved
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <a href="#" class="arrow"><i class="fa-solid fa-arrow-up" style="font-size: 30px;"></i></a>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
